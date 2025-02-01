@@ -12,7 +12,7 @@ public class Main {
 	static void findMQ() {
 		Calendar today = Calendar.getInstance();
 		today.set(1977, 9, 28);
-		int num = 365*100;
+		int num = 365*110;
 		int idx = 0;
 		while(idx<num) {
 			LunarCalendar lunar = LunarCalendar.solar2Lunar(today);
@@ -27,7 +27,7 @@ public class Main {
 	static void findYF() {
 		Calendar today = Calendar.getInstance();
 		today.set(1974, 8, 15);
-		int num = 365*100;
+		int num = 365*110;
 		int idx = 0;
 		while(idx<num) {
 			LunarCalendar lunar = LunarCalendar.solar2Lunar(today);
